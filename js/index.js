@@ -1,9 +1,10 @@
-var width = 900,
+/*
+var width = 930,
     height = 500;
 
 var projection = d3.geo.mercator()
-    .translate([-1400, 1800]) // horizontal and vertical
-    .scale(2500);
+    .translate([-1600, 1980]) // horizontal and vertical
+    .scale(2800);
 
 var svg = d3.select("body").append("svg")
     .attr("width", width)
@@ -45,3 +46,4 @@ g.selectAll("path")
       .append("path")
       .attr("d", path)
 });
+*/
