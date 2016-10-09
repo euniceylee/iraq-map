@@ -1,38 +1,59 @@
 body {
-	margin:auto;
-	/*max-width:850px;*/
-  max-width:500px;
-	font-family: Georgia;
-	font-weight:100;
-	margin-bottom: 50px;
-	padding-left: 10px;
-	padding-right: 10px;
+    margin: auto;
+/*max-width:850px;*/
+    max-width: 500px;
+    font-family: Georgia;
+    font-weight: 100;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 h1 {
-	font-weight:600;
-	font-size:35px;
-	font-family: Georgia;
-	text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: Georgia;
+    text-align: center;
 }
 
-h2{
-	font-size: 20px;
-	font-weight:800;
-	margin-top:20px;
-	padding-bottom: 3px;
-
+h2 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+    padding-bottom: 3px;
 }
 
 img#g-ai0-0.g-aiImg {
-	display: block;
+    display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+}
+
+footer {
+    float: clear;
+    background-color: #000;
+}
+
+.nbn-footer {
+    width: 100%;
+    font-family: 'PT Sans','Helvetica',sans-serif;
+}
+
+footer .credits p {
+    font-family: 'PT Sans','Helvetica',sans-serif;
+}
+
+.nbn-footer p {
+    color: #fff;
+}
+
+.nbn-footer strong {
+    color: #fff;
 }
 
 p.byline {
-	text-align: center;
-	font-size: 13px;
+    text-align: center;
+    font-size: 13px;
 }
 
 .w3-table-all tr:nth-child(odd) {
