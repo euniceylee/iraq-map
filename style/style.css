@@ -33,10 +33,42 @@ p.byline {
 	font-size: 13px;
 }
 
-table, th, td {
+/*td {
+    border: 1px solid black;
+		border-collapse: collapse;
+}*/
+
+table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.w3-table,.w3-table-all {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+}
+
+table {
+		    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+/*table, th, td {
 	font-family: Arial;
-	border-collapse: collapse;
+
 	padding: 7px;
 	text-align: left;
 	border-spacing: 5px;
-}
+}*/
