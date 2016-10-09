@@ -3,8 +3,8 @@ var width = 930,
     height = 500;
 
 var projection = d3.geo.mercator()
-    .translate([-1600, 1980]) // horizontal and vertical
-    .scale(2800);
+    .translate([-2300, 2500]) // horizontal and vertical
+    .scale(3700);
 
 var svg = d3.select("body").append("svg")
     .attr("width", width)
@@ -23,7 +23,7 @@ d3.csv("isis-iraq.csv", function(data) {
     svg.selectAll("circle")
        .data(data)
        .enter()
-       .append("circle") 
+       .append("circle")
        .attr("cx", function(d) {
                return projection([d.lon, d.lat])[0];
        })

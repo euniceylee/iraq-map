@@ -1,3 +1,42 @@
 body {
-	font-family: Roboto;
+	margin:auto;
+	/*max-width:850px;*/
+  max-width:500px;
+	font-family: Georgia;
+	font-weight:100;
+	margin-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+h1 {
+	font-weight:600;
+	font-size:35px;
+	font-family: Georgia;
+	text-align: center;
+}
+
+h2{
+	font-size: 20px;
+	font-weight:800;
+	margin-top:20px;
+	padding-bottom: 3px;
+
+}
+
+div#g-untitled-Artboard_1.ai2html {
+	float: right;
+}
+
+p.byline {
+	text-align: center;
+	font-size: 13px;
+}
+
+table, th, td {
+	font-family: Arial;
+	border-collapse: collapse;
+	padding: 7px;
+	text-align: left;
+	border-spacing: 5px;
 }
