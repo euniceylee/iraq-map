@@ -29,28 +29,6 @@ img#g-ai0-0.g-aiImg {
     margin-right: auto;
 }
 
-footer {
-    float: clear;
-    background-color: #000;
-}
-
-.nbn-footer {
-    width: 100%;
-    font-family: 'PT Sans','Helvetica',sans-serif;
-}
-
-footer .credits p {
-    font-family: 'PT Sans','Helvetica',sans-serif;
-}
-
-.nbn-footer p {
-    color: #fff;
-}
-
-.nbn-footer strong {
-    color: #fff;
-}
-
 p.byline {
     text-align: center;
     font-size: 13px;
